@@ -53,7 +53,7 @@ const app = {
       link.classList.toggle(
         classNames.nav.active, 
         link.getAttribute('href') == '#' + pageId
-      );
+        );
     }
   },
 
